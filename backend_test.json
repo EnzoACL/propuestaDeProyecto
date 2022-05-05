@@ -1,0 +1,753 @@
+{
+  "uuid": "afdb4e95-b931-452d-aa62-1265a67bd7e4",
+  "lastMigration": 19,
+  "name": "Backend test",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3001,
+  "hostname": "0.0.0.0",
+  "routes": [
+    {
+      "uuid": "6c89ce40-f4ac-4035-b6d7-50a4d2b6b775",
+      "documentation": "Obtener datos de usuario",
+      "method": "get",
+      "endpoint": "user/1",
+      "responses": [
+        {
+          "uuid": "c99e9b3f-8141-4f20-9c51-899c5c1c1d24",
+          "body": "{\r\n  name: \"Ejemplo\",\r\n  id: 1234\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "a6e4ca42-96d9-4c49-8ae7-008a6955d0ad",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "be44cbbe-8da7-4504-af2e-15173827bea7",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 400,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "061ca56a-1e46-413a-bfe7-a8c6773bb231",
+      "documentation": "Crear usuario",
+      "method": "post",
+      "endpoint": "user/",
+      "responses": [
+        {
+          "uuid": "a24866af-8ced-4610-bfdc-1664e79f25a7",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "9a8d8233-6f4c-405a-9b15-1f4a57f40c63",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "947990cb-4638-4916-ac63-800bdf297fd1",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 201,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "26aab858-1a2a-48bf-a9e4-eb1b6734fc86",
+      "documentation": "Modificar datos usuarios",
+      "method": "put",
+      "endpoint": "user/",
+      "responses": [
+        {
+          "uuid": "f7428f3f-03f6-4889-bcf9-c31093bab77f",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "8ac154e7-b550-40f0-9327-00d6566889d7",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 400,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "6956e582-cd79-4bcb-aeb0-086ac0e25d66",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "d799cfd7-46ee-4190-a29e-12d30513f7f3",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "46e0e186-264e-4f26-bb9a-378f86f4d0c0",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 201,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "9463854c-825c-4a0f-a687-8047ee245e1a",
+      "documentation": "Determinar si se crea usuario o grupo",
+      "method": "put",
+      "endpoint": "user/group_or_person",
+      "responses": [
+        {
+          "uuid": "8bc0b182-7d40-4ea2-8cfb-24378d84a76d",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "180f3115-19ab-4643-b09f-7ad4cc392ece",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 201,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "90722e87-256e-4fb1-a762-a9fc437b0ce4",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 400,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "4b3f6e44-e2f2-47f0-8e96-053e026a95a5",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "377ff216-36c1-4c2e-b6c2-b5320560a881",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "95b40ef5-36a1-4e78-b0a2-3de4b93a870a",
+      "documentation": "Borrar usuario",
+      "method": "delete",
+      "endpoint": "user/541",
+      "responses": [
+        {
+          "uuid": "0c8c76e2-e604-4712-832a-479aacca0f65",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "431d1931-5145-4796-9822-78895b32c4b6",
+      "documentation": "Busqueda de usuarios/grupos",
+      "method": "get",
+      "endpoint": "users/1",
+      "responses": [
+        {
+          "uuid": "19e10b88-abcf-41fa-8ae8-3a566d8980e5",
+          "body": "{\n  photo: \n  name: \"Ejemplo\"\n  description: \"\"\n  id: 1234\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "19999a31-8edf-4068-9f25-f4bdeb2be3ec",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "16f1d4c2-e344-449a-8621-de55d5a86402",
+      "documentation": "Lista de amigos",
+      "method": "get",
+      "endpoint": "friends/*",
+      "responses": [
+        {
+          "uuid": "78a8a75c-0811-48a5-b433-eefe6441cf71",
+          "body": "{\n  photo: \n  name: \"Ejemplo\"\n  description: \"\"\n  id: 1234\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "efd09269-f897-4418-bd74-8dfb4ec2dcf2",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "d865028e-af71-464c-9e41-8e3c238dd36b",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "6de751ac-7587-49de-bc66-11c8d9a58daf",
+      "documentation": "Obtener publicaciones de un usuario",
+      "method": "get",
+      "endpoint": "publications/1",
+      "responses": [
+        {
+          "uuid": "53d75d76-535c-4db4-a1ce-fcfc8b8bf21a",
+          "body": "{\n  falta determinar estructura publicaciones:\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "aa0a6de7-8b33-49ba-afc0-686a208c9705",
+          "body": "{\n  \n}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "6d43b3b8-6ccd-4087-b6ef-ebfe83cddaa4",
+      "documentation": "Crear una publicacion",
+      "method": "post",
+      "endpoint": "publication/",
+      "responses": [
+        {
+          "uuid": "a5145e6c-3f6a-4643-9c40-90e53bf36951",
+          "body": "{\n  id: \n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "3278450c-5b56-4812-a630-515a6c3340da",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "b31ed88f-edb7-4f3f-9c21-0aa0011be0b0",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 201,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "3d603179-f693-4884-b2b2-b0358dd9a450",
+      "documentation": "Eliminar una publicacion determinada",
+      "method": "delete",
+      "endpoint": "publication/206",
+      "responses": [
+        {
+          "uuid": "e044034b-7d4b-4ed7-9a39-43c2b17834f7",
+          "body": "{\n  id: \n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "3bd14c24-b034-48fa-938c-38e182bcf9d5",
+      "documentation": "Obtener comentarios",
+      "method": "get",
+      "endpoint": "coments/158",
+      "responses": [
+        {
+          "uuid": "ff04a565-1f0e-4d3c-9b3b-a66fecd518e4",
+          "body": "{\n  user: \"Juan\"\n  content: \"Buenos dias\"\n  info: Fecha/hora del comentario(?)\n}",
+          "latency": 0,
+          "statusCode": 400,
+          "label": "nº publicacion",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "531dfbcd-2dd5-42bf-8e97-d88371554b86",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "5c680361-dc64-455d-9e34-e109c4c96c71",
+      "documentation": "Crear comentario",
+      "method": "post",
+      "endpoint": "comment/",
+      "responses": [
+        {
+          "uuid": "c8178f82-1d3d-43a5-9792-72b1042c171a",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "77c7f8d6-d5d7-4a94-be4a-b7f072910725",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "7ad76f7f-c8cf-41b7-b12e-2ceb9bb00065",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 201,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "cc4991cf-bb1a-44f6-a730-eb5ff9b6108f",
+      "documentation": "Borrar comentario",
+      "method": "delete",
+      "endpoint": "comment/158",
+      "responses": [
+        {
+          "uuid": "c046af03-f82d-4a4d-873d-8ab2c238353c",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "90a98423-d79b-455d-bc6e-08146b40eb4d",
+      "documentation": "Obtener mensajes de una cuenta determinada",
+      "method": "get",
+      "endpoint": "msg/234",
+      "responses": [
+        {
+          "uuid": "1d80f033-6537-4c49-884e-4776af303a4c",
+          "body": "{\n  name:Pedro\n  content:\"\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Mensajes privados",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "ae8ffba9-f672-4077-84be-fdfcb78d7b33",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 500,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "8b817ae5-3110-4d2b-a45c-f84b9b2e0d83",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    },
+    {
+      "uuid": "af1c0730-0df6-4bff-b253-96e179eac0e6",
+      "documentation": "Mandar mensaje",
+      "method": "post",
+      "endpoint": "msg/234",
+      "responses": [
+        {
+          "uuid": "9e81251e-926e-4517-bf2f-593466aedc52",
+          "body": "{\n  name:\"Juan\"\n  content:\"Hola\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Mensajes privados",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        },
+        {
+          "uuid": "db458d46-92a1-4a12-b669-7571751a3726",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 201,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ]
+}
